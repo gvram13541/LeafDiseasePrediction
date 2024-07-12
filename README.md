@@ -8,7 +8,7 @@ This project aims to predict leaf diseases using a Convolutional Neural Network 
 - [Technologies Used](#technologies-used)
 - [Setup and Installation](#setup-and-installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
+- [ScreenShots](#screenshots)
 - [License](#license)
 
 ## Introduction
@@ -65,3 +65,20 @@ This project helps in identifying diseases in plant leaves by analyzing images. 
 1. Open your web browser and navigate to `http://localhost:3000`.
 2. Upload an image of a leaf to predict the disease.
 3. View the prediction results along with related articles and YouTube videos.
+
+## Screenshots
+Here are some screenshots of the application:
+
+### Home Page
+![Home Page](ScreenShots/Screenshot%202024-06-26%20095857.png)
+
+### Prediction Result
+![Prediction Result](ScreenShots/Screenshot%202024-06-26%20100228.png)
+
+### Related Articles
+![Related Articles](ScreenShots/Screenshot%202024-06-26%20100246.png)
+
+### Related Videos
+![Related Videos](ScreenShots/Screenshot%202024-06-26%20100314.png)
+
+## License
