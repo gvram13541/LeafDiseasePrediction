@@ -1,0 +1,112 @@
+.video-list {
+    background-color: rgba(193, 249, 183, 0.7); 
+    color: #333; 
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .video-list h2{
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    color: #111; 
+  }
+  
+  .video-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px;
+    justify-items: center; 
+  }
+  
+  @media (max-width: 1300px) {
+    .video-grid {
+      grid-template-columns: repeat(2, 1fr); 
+    }
+  }
+  
+  @media (max-width: 910px) {
+    .video-grid {
+      grid-template-columns: 1fr; 
+    }
+  }
+  
+  
+  .video-grid .video-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .video-item {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    background-color: #fff; 
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  .video-item h3 {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+  }
+  
+  .video-item a {
+    color: #fff; 
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 10px;
+  }
+  
+  .video-item a:hover {
+    text-decoration: underline;
+  }
+  
+  .video-item img {
+    width: 100%;
+    max-width: 400px;
+    object-fit: cover;
+    border-radius: 10px; 
+  }
+  
+  .watch-button {
+    display: block;
+    background-color: #e74c3c; 
+    color: #fff; 
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+  }
+  
+  .watch-button:hover {
+    background-color: #c0392b; 
+  }
+
+  @media (max-width: 670px) {
+    .video-item{
+        width: 100%;
+        max-width: 200px;
+    }
+    .video-list{
+        padding: 10px;
+    }
+    .video-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .video-list h2 {
+        font-size: 1.5em;
+    }
+    
+    .video-item h3 {
+        font-size: 1.2em;
+    }
+}

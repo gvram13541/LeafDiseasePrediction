@@ -1,0 +1,90 @@
+.image-upload {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.file-input-container {
+    position: relative;
+}
+
+#file-input {
+    position: absolute;
+    left: -9999px;
+}
+
+.file-input-label, .camera-button, .submit-button, .capture-button {
+    padding: 10px 15px;
+    background-color: #00ff00;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: inline-block; 
+    text-align: center; 
+    text-decoration: none;
+    width: 170px;
+    font-family: sans-serif;
+    font-size: 16px; 
+    margin: 5px;
+    font-weight: bold; 
+}
+
+.capture-button {
+    margin-left: 0;
+}
+
+.file-input-label:hover, .camera-button:hover, .submit-button:hover, .capture-button:hover {
+    background-color: #45a049;
+}
+
+.submit-button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+.camera-container {
+    margin-top: 20px;
+}
+
+.camera-preview {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    margin-left: 30px;
+    border: 1px solid #ddd;
+    margin: 0 auto;
+    display: block;
+}
+
+.file-preview {
+    margin-top: 20px;
+}
+
+.preview-image {
+    width: 100%;
+    max-width: 400px;
+    height: 300px;
+    object-fit: cover;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin: 0 auto;
+    display: block;
+}
+
+
+@media (max-width: 670px) {
+    .file-input-label, .camera-button, .submit-button, .capture-button {
+        width: 100%;
+    }
+}

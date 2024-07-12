@@ -1,0 +1,111 @@
+/* General styles */
+
+body {
+  background-image: url('../images/background_image.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f4f4f4;
+}
+
+
+.App {
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+h1, h2, h3 {
+  color: #0f0e0e;
+  text-align: center;
+} */
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h2 {
+  color: #2c3e50;
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 10px;
+  margin-top: 30px;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: #333; */
+  color: #fff;
+  padding: 10px 20px;
+}
+
+
+/* Button styles */
+.home-button {
+  justify-content: center;
+  gap: 10px;
+  padding: 10px 15px;
+  background-color: #00ff00;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  display: inline-block; 
+  text-align: center; 
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 16px; 
+  font-weight: bold; 
+  font-family: Arial, sans-serif;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+  align-items: center;
+}
+
+.home-button:hover {
+  background-color: #45a049;
+}
+
+@media (max-width: 670px) {
+  body {
+      background-size: auto 100%;
+  }
+
+  .App {
+      padding: 10px;
+  }
+
+  h1 {
+      font-size: 1.5em;
+  }
+
+  h2 {
+      font-size: 1.3em;
+  }
+
+  .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+  }
+
+  .home-button {
+      width: 100%;
+      margin-bottom: 10px;
+  }
+
+  .buttons {
+      flex-direction: column;
+  }
+}
