@@ -43,7 +43,7 @@ This project helps in identifying diseases in plant leaves by analyzing images. 
 ### Setup
 1. Clone the repository:
     ```bash
-    git clone https://github.com/gvram13541/CropDiseasePrediction.git
+    git clone https://github.com/gvram13541/LeafDiseasePrediction.git
     ```
 
 2. Create and activate a virtual environment:
